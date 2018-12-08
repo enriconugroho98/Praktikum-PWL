@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Input Data - Form Metode GET</title>
+    </head>
+    <body>
+        <h3>Formulir Biodata</h3>
+        <form action="Latihan_4.php" method="get">
+            <table width="600px">
+            <tr>
+                <td width="30%">Nama</td>
+                <td width="2%">:</td>
+                <td><input type="text" name="txtNama" size="45" /></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="txtAlamat" cols="45"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="rdJenisKelamin" value="Laki-Laki" />
+                    Laki-Laki
+                    <input type="radio" name="rdJenisKelamin" value="Perempuan" />
+                    Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select name="cbAgama">
+                        <option value="0">- pilih -</option>
+                        <option value="is">Islam</option>
+                        <option value="kk">Kristen Katolik</option>
+                        <option value="kp">Kristen Protestan</option>
+                        <option value="hd">Hindu</option>
+                        <option value="bd">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+                <td>
+                    <input type="submit" value="Kirim Informasi" />
+                    <input type="reset" value="Reset" />
+                </td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>
